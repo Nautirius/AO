@@ -1,0 +1,43 @@
+transformacja - zmiana reprezentacji problemu
+transformata - wynik trasformacji
+transformacja odwrotna (nie zawsze mozliwa)
+
+Czasami rozwiazanie problemu latwiejsze po transformacji. Potem wynik transformujemy z powrotem.
+
+Transformacja Fouriera:
+
+- funkcja bazowa (nieskonczenie wiele)
+- f(x)=y=sum(y_i * f_i(x))  - dla danego x_i mamy y_i, inaczej 0 (funkcja ma wartosc dla argumentu)
+- w transformacie zmieniamy przestrzen funkcji bazowych - kazdej z funkcji przypisujemy  cosinus
+- funkcje roznia sie czestotliwoscia
+- czestotliwosci przypisujemy amplitude
+- tw. Fouriera (dla dowolnej ilosci pkt da sie tak zsumowac cosinusy zeby przez nie (punkty) przeszlo)
+- dla punktow przypisujemy jasnosc
+
+- y = A*sin(omega*x+phi)+stala
+- omedze przypisujemy A i phi
+- A \in [0, +inf)
+- phi \in [0, 2pi)  albo w matlab \in [-pi, pi)
+
+- obie wartosci mozna przedstawic za pomoca liczby zespolonej
+- z = a + ib
+- |z| = A, kat phi
+- z = A*e^(i*phi)
+- A = sqrt(a^2 + b^2)
+- phi = arctg(b/a)
+
+- widmo amplitudowe - najwieksze amplitudy w rogach - rozblyski (najmiejsze czestotliwosci)
+- powtarza sie okresowo
+
+
+sprawozdanie - bez wstepy teoretycznego
+komentarz na koniec (1-2 zdania)
+tak by osoba ktora nie byla na zajeciach wiedziala o co chodzi
+podpisy obrazka (zubr po przefiltrowaniu)
+tresc - nawiazuje do obrazka (jak jest obok. obrazki opisane w tresci)
+
+tytul maila - AO imie, nazwisko
+wysylamy .pdf
+nazwa pliku: Nazwisko_Imie_1.pdf
+do 21.11 godzina 16:44
+na maila fisowskiego
